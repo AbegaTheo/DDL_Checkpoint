@@ -13,21 +13,23 @@ L'objectif était de créer un schéma de base de données relationnelle selon u
 Le modèle comprend trois tables principales :
 
 **- Customer :** Stocke les informations des clients
+
 **- Product :** Contient les détails des produits
+
 **- Orders :** Table d'association représentant la relation plusieurs-à-plusieurs entre clients et produits
 
 ## Structure du Dossier
 
 DDL_Checkpoint/
-├── model.png       # Image du modèle relationnel
-├── model.png       # Image des types de données
-├── README.md       # Documentation du projet
-└── schema.sql      # Script SQL contenant les commandes DDL
+Modele_relational.png       # Image du modèle relationnel
+Data_type_tableau.png       # Image des types de données
+README.md       # Documentation du projet
+schema.sql      # Script SQL contenant les commandes DDL
 
 ## Contraintes et Spécifications
 
-La table Customer possède une clé primaire **Customer_id** et des contraintes **NOT NULL** sur certains champs
-La table Product a une contrainte de **valeur positive** sur le prix
+La table Customer possède une clé primaire **Customer_id** et des contraintes **NOT NULL** sur certains champs.
+La table Product a une contrainte de **valeur positive** sur le prix.
 La table Orders utilise une clé primaire composite **(Customer_id, Product_id)** et contient des données sur les quantités et montants.
 
 ## Modifications Effectuées
@@ -53,4 +55,5 @@ Le fichier ```schema.sql``` contient tout le code DDL nécessaire pour créer et
 ## Outils Utilisés
 
 **- SQL** (syntaxe Oracle)
+
 **- Git** pour le versionnement du code
