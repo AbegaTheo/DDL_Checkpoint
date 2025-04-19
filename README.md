@@ -29,7 +29,9 @@ schema.sql      # Script SQL contenant les commandes DDL
 ## Contraintes et Spécifications
 
 La table Customer possède une clé primaire **Customer_id** et des contraintes **NOT NULL** sur certains champs.
+
 La table Product a une contrainte de **valeur positive** sur le prix.
+
 La table Orders utilise une clé primaire composite **(Customer_id, Product_id)** et contient des données sur les quantités et montants.
 
 ## Modifications Effectuées
