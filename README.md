@@ -25,15 +25,6 @@ Le modèle comprend trois tables principales :
 - `README.md` : Ce fichier, pour documenter le projet.
 - `schema.sql` : Contient les commandes DDL pour créer les tables de la base et faire les modifications.
 
----
-
-🔄 **Tips bonus** :
-- Tu peux intégrer les **images directement dans le README** avec un lien comme ceci :
-
-```md
-![Modèle relationnel](./Modele_relational.png)
-
-
 ## Contraintes et Spécifications
 
 La table Customer possède une clé primaire **Customer_id** et des contraintes **NOT NULL** sur certains champs.
