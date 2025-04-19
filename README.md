@@ -18,13 +18,21 @@ Le modèle comprend trois tables principales :
 
 **- Orders :** Table d'association représentant la relation plusieurs-à-plusieurs entre clients et produits
 
-## Structure du Dossier
+## 📁 Structure du Dossier
 
-DDL_Checkpoint/
-Modele_relational.png       # Image du modèle relationnel
-Data_type_tableau.png       # Image des types de données
-README.md       # Documentation du projet
-schema.sql      # Script SQL contenant les commandes DDL
+- `Modele_relational.png` : Représentation visuelle du modèle relationnel de la base de données.
+- `Data_type_tableau.png` : Image présentant les types de données utilisés dans le schéma.
+- `README.md` : Ce fichier, pour documenter le projet.
+- `schema.sql` : Contient les commandes DDL pour créer les tables de la base et faire les modifications.
+
+---
+
+🔄 **Tips bonus** :
+- Tu peux intégrer les **images directement dans le README** avec un lien comme ceci :
+
+```md
+![Modèle relationnel](./Modele_relational.png)
+
 
 ## Contraintes et Spécifications
 
